@@ -159,9 +159,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
 ]
 
-REST_FRAMEWORK = {
-    'DEFAULT_RENDERER_CLASSES':('rest_framework.renderers.JSONRenderer',)
-}
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES':('rest_framework.renderers.JSONRenderer',)
+# }
 
 CORS_ALLOW_METHODS = (
     "DELETE",
